@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>母亲节快乐</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    background:#ffe8f0;
+    text-align:center;
+    padding:100px 20px;
+    font-family:苹方,Helvetica,sans-serif;
+    min-height:100vh;
+}
+h1{
+    color:#d6336c;
+    font-size:34px;
+    margin-bottom:30px;
+}
+.text{
+    font-size:19px;
+    color:#444;
+    line-height:1.8;
+    margin-bottom:60px;
+}
+.name{
+    font-size:22px;
+    color:#b84270;
+    font-weight:bold;
+}
+audio{display:none;}
+</style>
+</head>
+<body>
+
+<h1>💐 母亲节快乐 妈妈辛苦了 💐</h1>
+
+<div class="text">
+愿我最爱的妈妈<br>
+平安健康，永远开心<br>
+一生被温柔与幸福包围
+</div>
+
+<div class="name">—— 杨小乐</div>
+
+<!-- 自动播放音频 -->
+<audio autoplay loop id="bgm">
+    <source src="萤火 gem.mp3" type="audio/mpeg">
+
+
+<script>
+document.getElementById('bgm').play().catch(e=>{});
+</script>
+
+</body>
+</html>
